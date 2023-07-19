@@ -1,0 +1,21 @@
+div.main{
+    padding: 10px 50px 25px;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 10px;
+}
+
+h1{
+    display: block;
+    background-color: rgb(111, 231, 111);
+}
+
+button.btn{
+    background-color: rgb(77, 247, 58);
+    border-radius: 2px;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+button.btn:hover{
+    background-color: rgb(148, 224, 148);
+    transition: 0.75s;
+}

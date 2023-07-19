@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Add new student details</title>
+  <link rel="stylesheet" href="main1.css">
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div id="formDiv">
+    <div class="main">
+    <center>
+        <form id="newstudent">
+            <h1>Student details Dashboard</h1>
+            <label for="firstname" >First Name:</label>
+            <input type="text" id="firstname" required autofocus><br><br>
+            <label for="lastname" >Last Name:</label>
+            <input type="text" id="lastname" required><br><br>
+            <label for="enroll_no" >Enrollment Number:</label>
+            <input type="text" id="enroll_no" required><br><br>
+            <label for="course">Course</label>
+            <input type="text" id="course">
+            <label for="semester">Semester</label>
+            <input type="text" id="semester">
+            <label for="attendance">Attendance</label>
+            <input type="text" id="attendance"><br><br>
+            <button class="btn" type="submit">Record details</button>
+        </form>
+    
+        <br>
+        <label for="retrieveKey" >Enter enrollment number to retrieve details:</label>
+        <input type="text" id="retrieveKey" required><br>
+        <button class="btn" id="retrieveButton">Retrieve </button>
+        <br>
+        <div id="retrieve"></div>
+        <br>
+        <label for="removeKey" >Enter enrollment number to delete: </label>
+        
+        <br><br>
+        <button class="btn" id="clearButton">Clear all records</button>
+  </div>
+  </div>
+</center>
+</body>
+</html>

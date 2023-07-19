@@ -1,0 +1,1 @@
+Extract the .zip file and start by opening the att.html file in your browser
